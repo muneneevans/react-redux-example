@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-tal",
+  "name": "recharts",
   "version": "1.0.0",
-  "description": "react redux",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,9 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/muneneevans/react-redux-example.git"
   },
-  "keywords": [
-    "redux"
-  ],
   "author": "overmars",
   "license": "MIT",
   "bugs": {
@@ -23,24 +20,22 @@
   },
   "homepage": "https://github.com/muneneevans/react-redux-example#readme",
   "dependencies": {
-    "babel": "^6.23.0",
-    "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
-    "redux": "^3.7.0",
+    "redux": "^3.7.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
     "seamless-immutable": "^7.1.2"
   },
   "devDependencies": {
-    "babel": "^6.23.0",
-    "babel-core": "^6.25.0",
+    "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "webpack": "^2.6.1",
+    "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
   }
 }
